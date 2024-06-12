@@ -1,0 +1,161 @@
+body {
+    font-family: 'Rubik', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f7ebd7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f96d4e;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f7ebd7;
+    margin-right: auto;
+    
+}
+.logo img {
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f7ebd7;
+    font-weight: bold
+}
+a:hover {
+    color: #333;
+}
+
+#main-banner {
+    position: relative;
+    text-align: center;
+}
+
+#main-banner img {
+    width: 100%;
+    height: auto;
+}
+
+#main-banner .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    transform: translate(-50%, -50%);
+    color: #f7ebd7;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px #333333c0;
+    
+   
+    padding: 20px;
+}
+.shop section {
+padding: 2rem;
+    text-align: center;
+}
+.shop {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.shop {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.shop .shop img {
+    background-color: #f96d4e;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 2rem);
+    border-radius: 20px;
+    
+}
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold
+}
+a:hover {
+    color: #f96d4e;
+}
+
+    
+
+.description {
+    max-width: 500px;
+    color: #333;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f96d4e;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f7ebd7;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #f96d4e;
+    color: #f7ebd7;
+    border: none;
+    padding: 10px 15px;
+    
+}
+
+.openbtn:hover {
+    color: #333;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #f96d4e;
+}
+
